@@ -1,0 +1,21 @@
+{
+  "extends": "@tsconfig/react-native/tsconfig.json",
+  "compilerOptions": {
+    // 增加
+    "paths": {
+      "pkg": ["./packages"],
+      "@": ["./src"]
+    }
+  },
+  // 增加
+  "include": [
+    "src/**/*.ts",
+    "src/**/*.d.ts",
+    "src/**/*.tsx",
+    "src/**/*.vue",
+    "pkg/**/*.ts",
+    "pkg/**/*.d.ts",
+    "pkg/**/*.tsx",
+    "pkg/**/*.vue"
+  ]
+}

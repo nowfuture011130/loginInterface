@@ -1,0 +1,22 @@
+{
+  "expo": {
+    "name": "loginProject",
+    "slug": "loginProject",
+    "android": {
+      "package": "com.nowfuture.loginProject"
+    }
+  },
+  "name": "loginProject",
+  "displayName": "loginProject",
+  "android": {
+    "package": "com.nowfuture.loginproject"
+  },
+  "ios": {
+    "bundleIdentifier": "com.nowfuture.loginproject"
+  },
+  "extra": {
+    "eas": {
+      "projectId": "61828e50-6e56-4b6e-8a73-d47a419b194d"
+    }
+  }
+}
